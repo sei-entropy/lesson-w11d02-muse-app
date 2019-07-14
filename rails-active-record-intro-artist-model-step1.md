@@ -1,14 +1,3 @@
----
-title: Rails Active Record Intro
-type: lesson
-duration: 60 min
-creator:
-    name: Marc Wright
-    city: WDIR
-competencies: Programming
-
----
-
 [![General Assembly Logo](https://camo.githubusercontent.com/1a91b05b8f4d44b5bbfb83abac2b0996d8e26c92/687474703a2f2f692e696d6775722e636f6d2f6b6538555354712e706e67)](https://generalassemb.ly/education/web-development-immersive)
 
 # Rails Active Record Intro
@@ -33,6 +22,7 @@ _After this lesson, students will be able to:_
 Over the next few lessons we're gonna build an app that tracks Artists and Songs. Here's a deployed version of [WDIR Muse](https://wdir-muse.herokuapp.com/)
 
 <br>
+
 ## Concepts + Definitions
 
 ### Turn and Talk (15 min)
