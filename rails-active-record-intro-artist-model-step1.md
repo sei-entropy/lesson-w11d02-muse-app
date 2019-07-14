@@ -323,6 +323,7 @@ Artist.all 	#=> confirm she's been deleted
 <br>
 
 ![Imgur](http://i.imgur.com/wPefQjh.png)
+
 ## Conclusion (5 mins)
 
 In this lesson we dove into some dense topics:
@@ -344,10 +345,15 @@ We also created an `Artist` model for our Muse app. In the next lessons we're go
 
 Let's practice what we just did! You're gonna create an app using `Author` and `Book` as the models. 
 
-- Walk back through the previous [Muse Set-up Lesson](../../w09d01/instructor_notes/rails-muse-app-setup-and-deploy.md) and this lesson. 
-- Create a new Rails app called `books-app`. Instead of `Artist` you'll create an `Author` model. 
+- Walk back through this lesson. Create a new Rails app called `books-app`. Instead of `Artist` you'll create an `Author` model. 
 - Come up with 4 fields that you want your author table to have (e.g.- publisher, genre, birthdate, first_name, last_name, pen_name)
 - You'll need to create your own seed data for your authors.
 
 <br>
+
+## Additional Resources
+
+- 
+
+
 
