@@ -22,7 +22,7 @@ competencies: Programming
 - Be able to create a new Rails app with routes for static pages
 
 
-##Intro
+## Intro
 
 In the previous lessons we created `Artist` and `Song` models and relationships. Up to this point we did all of our work in `rails c`. Let's add some views so our users can interact with our site.
 
@@ -641,6 +641,7 @@ end
 <br>
 
 ![Imgur](http://i.imgur.com/wPefQjh.png)
+
 ## Conclusion (5 mins)
 
 Hooray! So over the past 4 lessons we've accomplished the following:
@@ -662,6 +663,4 @@ Hooray! So over the past 4 lessons we've accomplished the following:
 
 - Go back and fix our navbar links
 - Finish adding full CRUD to `Song`
-
-
-
+- Finish your `books_app`  
