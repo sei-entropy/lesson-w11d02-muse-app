@@ -424,7 +424,7 @@ patch "artists/:id", to: "artists#update"
 ```ruby
 def update
 	artist = Artist.find(params[:id])
-	artist.update(params.require(:artist).permit(:name, :albums, :hometown))
+	artist.update(params.require(:artist).permit(:name, :albums, :hometown, :img))
 		
 	redirect_to artist
 end
