@@ -188,7 +188,7 @@ Let's create an instance of the `Artist` object on the ruby side, but that does 
 ```ruby
 adele = Artist.new(name: "Adele", hometown: "London", albums: 3, img: "https://pbs.twimg.com/profile_images/657199367556866048/EBEIl2ol.jpg")
 
-adele.name 		#=> "Adele"
+adele.name 	#=> "Adele"
 adele.hometown 	#=> "London"
 ```
 To save our instance to the database we use `.save`:
