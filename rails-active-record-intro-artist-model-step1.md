@@ -353,7 +353,6 @@ Let's practice what we just did! You're gonna create an app using `Author` and `
 
 ## Additional Resources
 
-- 
-
-
-
+- https://guides.rubyonrails.org/routing.html
+- https://guides.rubyonrails.org/action_controller_overview.html
+- https://guides.rubyonrails.org/active_model_basics.html
