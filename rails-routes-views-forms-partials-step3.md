@@ -423,10 +423,10 @@ patch "artists/:id", to: "artists#update"
 
 ```ruby
 def update
-	artist = Artist.find(params[:id])
-	artist.update(params.require(:artist).permit(:name, :albums, :hometown, :img))
-		
-	redirect_to artist
+  artist = Artist.find(params[:id])
+  artist.update(params.require(:artist).permit(:name, :albums, :hometown, :img))
+	
+  redirect_to artist
 end
 ```
 <br>
@@ -443,9 +443,9 @@ delete "artists/:id", to: "artists#destroy"
 
 ```ruby
 def destroy
-	Artist.find(params[:id]).destroy
+  Artist.find(params[:id]).destroy
 
-	redirect_to artists_path
+  redirect_to artists_path
 end
 ```
 
