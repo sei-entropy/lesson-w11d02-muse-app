@@ -51,6 +51,7 @@ RDBMS stand for __relational database management system (RDBMS)__. You can think
 
 
 <br>
+
 ### SQL (Structured Query Language)
 Relational Databases are also commonly referred to as **SQL** databases. [**SQL**](https://en.wikipedia.org/wiki/SQL), or Structured Query Language is a special-purpose programming language designed for managing data held in a relational database management system (RDBMS)
 
@@ -79,6 +80,7 @@ More concretely ORM's:
 It just so happens you will be learning one of the best ORM's on the market (Active Record). It has some of the best documentation and best syntax(because ruby is awesome) the industry has to offer.
 
 <br>
+
 ### What is Active Record?
 **CFU** -  What does MVC stand for?
 
@@ -93,6 +95,7 @@ To use a restaurant metaphor:
 - The kitchen is the database. It contains the ingredients (data) for the order we've requested
 
 <br>
+
 ### Migrations and Schema
 
 Rails and Postgresql are separate entities that live in different locations on your computer.
