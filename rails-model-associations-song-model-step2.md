@@ -1,14 +1,3 @@
----
-title: Rails Model Associations
-type: lesson
-duration: 60 min
-creator:
-    name: Marc Wright
-    city: WDIR
-competencies: Programming
-
----
-
 [![General Assembly Logo](https://camo.githubusercontent.com/1a91b05b8f4d44b5bbfb83abac2b0996d8e26c92/687474703a2f2f692e696d6775722e636f6d2f6b6538555354712e706e67)](https://generalassemb.ly/education/web-development-immersive)
 
 
@@ -47,6 +36,7 @@ Here is an example of a [one-to-many relationship from the Rails Docs](https://g
 
 
 ![](https://i.imgur.com/ZT4Fw1y.png)
+
 <br>
 
 Note that both authors and books each have their own `id` field. These are primary keys. 
@@ -83,6 +73,7 @@ columns on the command line, Rails will automatically generate the correct migra
 
 
 <br>
+
 ### Adding the Active Record Relationships (5 min)
 
 We need to update our models to indicate the associations between them. For Muse, our models should look like so:
@@ -123,11 +114,11 @@ Cool, like before, let me give you some song data to seed your database with son
 
 	```ruby
 	Song.create(artist_id: 1, title: "Umbrella", genre: "Pop")
-Song.create(artist_id: 2, title: "Shake It Off", genre: "Pop")
-Song.create(artist_id: 3, title: "Pressure", genre: "Rock")
-Song.create(artist_id: 4, title: "Hotline Bling", genre: "Rap")
-Song.create(artist_id: 5, title: "Lemonade", genre: "R&B")
-```
+	Song.create(artist_id: 2, title: "Shake It Off", genre: "Pop")
+	Song.create(artist_id: 3, title: "Pressure", genre: "Rock")
+	Song.create(artist_id: 4, title: "Hotline Bling", genre: "Rap")
+	Song.create(artist_id: 5, title: "Lemonade", genre: "R&B")
+	```
 
 1. We don't want to re-seed the duplicate artists from earlier. So let's drop our database and start over. Instead of running this:
 
@@ -181,6 +172,7 @@ Create your a Song for an Artist of your choice using `.new` and `.save`.
 <br>
 
 ### `.create`
+
 The `create` method will both instantiate and save a new record into the database:
 
 ```ruby
@@ -290,6 +282,7 @@ Check out your `rails c` and note that Active Record is deleting both the Artist
 <br>
 
 ![youdo](http://i.imgur.com/ylb6WX9.gif)
+
 ## Independent Practice (15 mins)
 
 Using Active Record Associations:
@@ -302,6 +295,7 @@ Using Active Record Associations:
 <br>
 
 ![Imgur](http://i.imgur.com/wPefQjh.png)
+
 ## Conclusion (5 mins)
 
 In this lesson we:
