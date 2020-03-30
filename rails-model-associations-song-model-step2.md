@@ -307,7 +307,3 @@ In this lesson we:
 <br>
 
 ![Imgur](http://i.imgur.com/WzTTdIe.jpg)
-
-## Labtime
-
-Add onto the `books-app` you started yesterday that was based on the previous lessons. Go through this lesson and instead of `Song` add a `Book` model to your app.
