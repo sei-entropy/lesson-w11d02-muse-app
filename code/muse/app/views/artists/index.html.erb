@@ -1,0 +1,33 @@
+<h1 class="mt-4 mb-4 text-center">All the Artists</h1>
+<div class="col-md-12 text-center">
+    <%= link_to "Add an Artist", new_artist_path, { :class => "btn btn-danger rounded-pill" } %>
+</div>
+<table class="table table-striped table-dark table-borderless table-hover text-center">
+    <thead class="thead-dark">
+        <tr>
+            <th>Artist</th>
+            <th>Image</th>
+            <th>Albums</th>
+            <th>Hometown</th>
+            <th>Edit</th>
+            <th>Delete</th>
+        </tr>
+    </thead>
+    <tbody>
+        <% @artists.each do |artist| %>
+        <tr>
+            <td><%= link_to artist.name, artist_path(artist) %></td>
+            <td><%= image_tag(artist.img, size: "100x100", alt: "Artist Image") %></td>
+            <td><%= artist.albums %></td>
+            <td><%= artist.hometown %></td>
+            <td><a class="btn btn-danger rounded-pill" href="<%= edit_artist_path(artist) %>">
+                    <em class="">Edit Artist</em>
+                </a>
+            </td>
+            <td><a class="btn btn-danger rounded-pill" data-confirm="Are you sure you want to delete <%= artist.name %>?" data-method="delete" href="/artists/<%= artist.id %>" rel="nofollow"><i class="large material-icons">Delete Artist</i>
+                </a>
+            </td>
+        </tr>
+        <% end %>
+    </tbody>
+</table>

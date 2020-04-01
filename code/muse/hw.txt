@@ -1,0 +1,11 @@
+Setup Devise for the Muse App Project
+Add a User Model using Devise
+An Artist should belong to a User
+Make sure only logged in Users can create an Artist
+Each User should only be able to access the Artists they created.
+D.R.Y. your Show, Edit, Update, and Delete Actions using before_action
+To finish up, read the last parts of Data Structures Graphs, and Design Patterns on the myGA website.
+
+
+# 20200401204405_add_user_ref_to_muse
+# 20200401202726_devise_create_users

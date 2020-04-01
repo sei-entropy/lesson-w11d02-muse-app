@@ -11,3 +11,10 @@ Artist.create(name: "Taylor Swift", albums: 8, hometown: "Nashville", img: "http
 Artist.create(name: "Billy Joel", albums: 14, hometown: "Long Island", img: "https://images-na.ssl-images-amazon.com/images/I/81RgoBLQOKL._SY355_.jpg")
 Artist.create(name: "Drake", albums: 4, hometown: "Toronto", img: "http://images.complex.com/complex/image/upload/t_in_content_image/drake-thank-me-later-album-cover_o6ek33.jpg")
 Artist.create(name: "Beyonce", albums: 6, hometown: "Houston", img: "http://www.fuse.tv/image/571c26a6017704456e00001b/816/545/beyonce-lemonade-album-cover-full.jpg")
+
+
+Song.create(artist_id: 1, title: "Umbrella", genre: "Pop")
+Song.create(artist_id: 2, title: "Shake It Off", genre: "Pop")
+Song.create(artist_id: 3, title: "Pressure", genre: "Rock")
+Song.create(artist_id: 4, title: "Hotline Bling", genre: "Rap")
+Song.create(artist_id: 5, title: "Lemonade", genre: "R&B")
